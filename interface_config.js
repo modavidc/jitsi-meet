@@ -130,7 +130,7 @@ var interfaceConfig = {
      */
     MOBILE_APP_PROMO: true,
 
-    NATIVE_APP_NAME: 'Jitsi Meet',
+    NATIVE_APP_NAME: 'Medirec Virtual Room',
 
     // Names of browsers which should show a warning stating the current browser
     // has a suboptimal experience. Browsers which are not listed as optimal or
@@ -252,7 +252,7 @@ var interfaceConfig = {
     /**
      * Specify mobile app scheme for opening the app from the mobile browser.
      */
-    // APP_SCHEME: 'org.jitsi.meet',
+    APP_SCHEME: 'com.medirec.virtualroom',
 
     /**
      * Specify the Android app package name.

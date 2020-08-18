@@ -184,10 +184,10 @@ class SettingsView extends AbstractSettingsView<Props, State> {
                         <TextInput
                             autoCapitalize = 'none'
                             autoCorrect = { false }
-                            editable = { this.props._serverURLChangeEnabled }
+//                            editable = { this.props._serverURLChangeEnabled }
                             keyboardType = { 'url' }
                             onBlur = { this._onBlurServerURL }
-                            onChangeText = { this._onChangeServerURL }
+                            onChangeText = { this.props._serverURL }
                             placeholder = { this.props._serverURL }
                             textContentType = { 'URL' } // iOS only
                             value = { serverURL } />
